@@ -14,6 +14,8 @@ adb shell pm uninstall -k --user 0 org.lineageos.jelly
 adb shell cmd package install-existing org.lineageos.jelly
 
 
+uninstall
+
 adb shell pm uninstall -k --user 0 org.lineageos.audiofx
 
 adb shell pm uninstall -k --user 0 com.android.inputmethod.latin
@@ -44,6 +46,8 @@ adb shell pm uninstall -k --user 0 com.google.android.tts
 
 adb shell pm uninstall -k --user 0 org.lineageos.trebuchet
 
+
+install 
 
 adb shell cmd package install-existing org.lineageos.audiofx
 
