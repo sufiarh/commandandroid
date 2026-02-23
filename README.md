@@ -28,12 +28,14 @@ adb shell pm uninstall -k --user 0 com.android.dialer
 adb shell pm uninstall -k --user 0 com.google.android.tts
 adb shell pm uninstall -k --user 0 com.android.vending
 adb shell pm uninstall -k --user 0 org.lineageos.jelly
-
+adb shell pm uninstall --user 0 org.lineageos.recorder
+adb shell pm uninstall --user 0 com.android.fmradio
 
 install 
 
 adb shell cmd package install-existing org.lineageos.audiofx
 adb shell cmd package install-existing com.android.calculator2
+adb shell cmd package install-existing com.android.inputmethod.latin
 adb shell cmd package install-existing com.android.calendar
 adb shell cmd package install-existing org.lineageos.snap
 adb shell cmd package install-existing com.android.contacts
@@ -46,4 +48,8 @@ adb shell cmd package install-existing org.lineageos.eleven
 adb shell cmd package install-existing com.android.dialer
 adb shell cmd package install-existing com.google.android.tts
 adb shell cmd package install-existing com.android.vending
+adb shell cmd package install-existing org.lineageos.jelly
+adb shell cmd package install-existing org.lineageos.recorder
+adb shell cmd package install-existing com.android.fmradio
+
 
